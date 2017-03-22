@@ -38,7 +38,7 @@ if [ ! -f "${SRCDIR}/${IMG_LONG}.tar.xz" ]; then
 	exit 1
 fi
 
-SDIMG=duovero-${IMG}-${CARDSIZE}gb.img
+SDIMG=${MACHINE}-${IMG}-${CARDSIZE}gb.img
 
 if [ -f "${DSTDIR}/${SDIMG}" ]; then
 	rm ${DSTDIR}/${SDIMG}
