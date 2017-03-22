@@ -1,0 +1,43 @@
+From 5e49e8e04a10bb9fc53d853ab446bb051adf01c8 Mon Sep 17 00:00:00 2001
+From: Scott Ellis <scott@jumpnowtek.com>
+Date: Wed, 22 Mar 2017 09:21:41 -0400
+Subject: [PATCH] Remove some config settings to trim size
+
+---
+ configs/omap3_overo_defconfig | 12 ++++++------
+ 1 file changed, 6 insertions(+), 6 deletions(-)
+
+diff --git a/configs/omap3_overo_defconfig b/configs/omap3_overo_defconfig
+index 6189296..5c736c2 100644
+--- a/configs/omap3_overo_defconfig
++++ b/configs/omap3_overo_defconfig
+@@ -10,20 +10,20 @@ CONFIG_CMD_BOOTZ=y
+ CONFIG_CMD_ASKENV=y
+ # CONFIG_CMD_FLASH is not set
+ CONFIG_CMD_MMC=y
+-CONFIG_CMD_SPI=y
++# CONFIG_CMD_SPI is not set
+ CONFIG_CMD_I2C=y
+-CONFIG_CMD_USB=y
++# CONFIG_CMD_USB is not set
+ # CONFIG_CMD_FPGA is not set
+ CONFIG_CMD_GPIO=y
+ # CONFIG_CMD_SETEXPR is not set
+-CONFIG_CMD_DHCP=y
++# CONFIG_CMD_DHCP is not set
+ # CONFIG_CMD_NFS is not set
+ CONFIG_CMD_MII=y
+-CONFIG_CMD_PING=y
++# CONFIG_CMD_PING is not set
+ CONFIG_CMD_CACHE=y
+-CONFIG_CMD_EXT2=y
++# CONFIG_CMD_EXT2 is not set
+ CONFIG_CMD_EXT4=y
+-CONFIG_CMD_EXT4_WRITE=y
++# CONFIG_CMD_EXT4_WRITE is not set
+ CONFIG_CMD_FAT=y
+ CONFIG_CMD_FS_GENERIC=y
+ CONFIG_SYS_NS16550=y
+-- 
+2.7.4
+
