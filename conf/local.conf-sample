@@ -18,7 +18,7 @@ PREFERRED_VERSION_linux-stable = "4.9.%"
 GCCVERSION = "5.%"
 
 FORTRAN_forcevariable = ",fortran"
-#RUNTIMETARGET_append_pn-gcc-runtime = " libquadmath"
+RUNTIMETARGET_append_pn-gcc-runtime = " libquadmath"
 PREFERRED_VERSION_libgfortran = "5.4.%"
 
 MACHINE = "overo"
