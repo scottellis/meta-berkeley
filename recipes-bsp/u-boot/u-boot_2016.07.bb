@@ -13,7 +13,7 @@ UBOOT_LOCALVERSION = "-lbl"
 SRCREV = "19ce924ff914f315dc2fdf79f357825c513aed6e"
 SRC_URI = " \
     git://git.denx.de/u-boot.git;branch=master;protocol=git \
-    file://0001-Remove-some-config-settings-to-trim-size.patch \
+    file://0001-Combo-patch-to-support-old-Overo-COMs-MMC-only.patch \
  "
 
 SPL_BINARY = "MLO"
